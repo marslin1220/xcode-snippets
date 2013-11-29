@@ -46,7 +46,7 @@ However, if you want to clear the existing snippets, and use the fresh ones, you
 ## Cheat Sheet
 		
 * Core Data Fetch - `fetch`
-* __strong self - `strongself`
+* \_\_strong self - `strongself`
 * Set Frame - `setframe`
 * XCT Assert Equals - `xctequals`
 * CheckError - `checkerror`
@@ -54,7 +54,7 @@ However, if you want to clear the existing snippets, and use the fresh ones, you
 * ImageView - `imageview`
 * Documents Directory Path - `doc`
 * NSFetchedResultsControllerDelegate - `fetch`
-* dispatch_async Pattern for Background Processing - `dispatch_async background`
+* dispatch\_async Pattern for Background Processing - `dispatch_async background`
 * XCT Assert False - `xctfalse`
 * NSFetchedResultsController - `fetch`
 * UIViewController Lifecycle - `lifecycle`
@@ -67,7 +67,7 @@ However, if you want to clear the existing snippets, and use the fresh ones, you
 * Log Stack Trace - `stacktrace`
 * Class Continuation - `class`
 * XCT Assert Nil - `xctnil`
-* __weak self - `weakself`
+* \_\_weak self - `weakself`
 * UITableViewDelegate - `tabledelegate`
 * MFMailComposeViewController Initialization & Delegate - `mail`
 * NSCoding Protocol Methods - `nscoding`
