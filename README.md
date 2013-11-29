@@ -1,73 +1,76 @@
 # Snippets backup-import & Cheatsheet generator
-#### For Xcode.
-You can __browse snippets__ from my xcode-arsenal in the __readable_snippets__ directory above.
 
-Below is the auto-generated cheat-sheet from your own exported snippets.
-It's created every time you back up your snippets and push to git.
+#### For Xcode
+
+You can **browse snippets** from my xcode-arsenal in the **readable_snippets** directory above.
+
+Below is the auto-generated cheat-sheet from your own exported snippets. It's created every time you back up your snippets and push to git.
 
 ### Installation
-Fork the repository, to be able to export your own snippets and cheat-sheet. <br>
-You can save the repository wherever you want. <br>
-`$ git clone https://github.com/mneorr/snippie.git xcode-snippets` <br>
-`$ cd xcode-snippets` <br>
-`$ bundle install`
+
+Fork the repository, to be able to export your own snippets and cheat-sheet. You can save the repository wherever you want.
+
+```bash
+$ git clone git@github.com:jpsim/xcode-snippets.git
+$ cd xcode-snippets
+$ bundle install
+```
 
 ### Standard usage
-``$ rake backup`` <br>
+
+`$ rake backup`
+
 This will clear my snippets, and put yours in the repository.
 
-It will also generate readable snippets in the __readable_snippets__ dir.
+It will also generate readable snippets in the **readable_snippets** dir.
 And, it will re-create this file.
 
 After you do backup, `commit` and `push`, and you should have your fork up and ready.
+
 The cheat-sheet will be updated as well.
 
 ### Import
+
 ##### to your other computers, or a new OS installation
+
 The simplest thing you can do is:
-<br>
+
 `$ rake import`
-<br>
+
 It should not duplicate the same snippets.
 
-However, if you want to clear the existing snippets, and use the fresh ones, you may want to use <br>
-`$ rake clean_import`
+However, if you want to clear the existing snippets, and use the fresh ones, you may want to use
 
-<br><br>
+`$ rake clean_import`
 
 ## Cheat Sheet
 		
-* Delegate pragma mark - `delpragma`
-* Image View With Image Named - `imgimg`
-* Release object - `release`
-* Property Custom class - `pobj`
-* Property From dictionary - `pvfk`
-* View did dissapear - `vdd`
-* View Will Dissappear - `vwd`
-* Pragma Mark - `mark`
-* Private Pragma mark - `pmark`
-* Better Initializer - `init`
-* View Will Appear - `vwa`
-* NSLog - `log`
-* Factory method with Dictionary - `facdict`
-* @Synthesizer with _prefix - `psynth`
-* Private Category - `privcat`
-* Pragma - View Lifecycle - `pview`
-* View Did Load - `vdl`
-* View Did Unload - `vdu`
-*  - ``
-* View Did Appear - `vda`
-* NSString with format - `swf`
-* Property String - `pstr`
-* Init With Dictionary - `initdict`
-* Value For Key - `vfk`
-* Property NSNumber - `pnum`
-* UIViewController pragma marks - `conpragmas`
+* Core Data Fetch - `fetch`
+* __strong self - `strongself`
+* Set Frame - `setframe`
+* XCT Assert Equals - `xctequals`
+* CheckError - `checkerror`
+* UICollectionViewDataSource - `collectionview`
+* ImageView - `imageview`
+* Documents Directory Path - `doc`
+* NSFetchedResultsControllerDelegate - `fetch`
+* dispatch_async Pattern for Background Processing - `dispatch_async background`
+* XCT Assert False - `xctfalse`
+* NSFetchedResultsController - `fetch`
+* UIViewController Lifecycle - `lifecycle`
+* UIControlEventTouchUpInside - `touchup`
+* UITableViewDataSource - `tableview`
+* Library Directory Path - `library`
+* XCT Assert True - `xcttrue`
 * Singleton - `singleton`
-* Image named - `inamed`
-* Property IBOutlet custom class - `pibo`
-* UITableView delegate and datasource default methods - `delDat`
-* Property NSArray - `parr`
-* Method declaration - `method`
-* JSON operation - `jsonop`
-* Void method declaration - `void`
+* init - `init`
+* Log Stack Trace - `stacktrace`
+* Class Continuation - `class`
+* XCT Assert Nil - `xctnil`
+* __weak self - `weakself`
+* UITableViewDelegate - `tabledelegate`
+* MFMailComposeViewController Initialization & Delegate - `mail`
+* NSCoding Protocol Methods - `nscoding`
+* NSLocalizedString - `local`
+* \#pragma Mark - `pragma`
+* XCT Assert Not Nil - `xctnotnil`

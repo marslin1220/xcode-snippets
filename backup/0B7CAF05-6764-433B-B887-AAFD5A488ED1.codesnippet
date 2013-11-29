@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>setframe</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// Set Frame
+// Initializes a view frame inside a code block
+// Platform: All
+// Language: Objective-C
+// Completion Scope: Function or Method
+
+&lt;# view #&gt;.frame = ({
+    CGRect frame = &lt;# view #&gt;.frame;
+    &lt;# ... #&gt;
+    frame;
+});
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0B7CAF05-6764-433B-B887-AAFD5A488ED1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Initializes a view frame inside a code block</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Set Frame</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>xcttrue</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// XCT Assert True
+// Assert true for XCTest
+//
+// Platform: All
+// Language: Objective-C
+// Completion Scope: Function or Method
+
+XCTAssertTrue(&lt;#expression#&gt;, &lt;#message#&gt;);
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7DCBDBC8-C889-4C09-9886-296878367E19</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Assert true for XCTest</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>XCT Assert True</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

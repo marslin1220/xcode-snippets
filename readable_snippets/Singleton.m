@@ -1,18 +1,23 @@
 //Singleton
-//Quickly declare a singleton
+//Class method that returns a singleton instance
 //
 //Completion scopes: ["ClassImplementation"]
 //
 Copy / Paste in Xcode:
 
-#pragma mark - Singleton
-static <#self class#> *singleton;
+// Singleton
+// Class method that returns a singleton instance
+// 
+// Platform: All
+// Language: Objective-C
+// Completion Scope: Class Implementation
 
-+ (instancetype)instance {
-    static dispatch_once_t singletonToken;
-    dispatch_once(&singletonToken, ^{
-        singleton = [[self alloc] init];
++ (instancetype)shared<#name#> {
+    static <#class#> *_shared<#name#> = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _shared<#name#> = <#initializer#>;
     });
     
-    return singleton;
+    return _shared<#name#>;
 }

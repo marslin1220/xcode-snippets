@@ -1,9 +1,15 @@
-//Pragma Mark
-//Quicker way to add a pragma mark
+//#pragma Mark
+//Dividers and labels to organize your code into sections
 //
-//Completion scopes: ["ClassImplementation"]
+//Completion scopes: ["ClassInterfaceMethods", "ClassImplementation", "TopLevel"]
 //
 Copy / Paste in Xcode:
 
-#pragma mark - <#pragma name#>
+// #pragma Mark
+// Dividers and labels to organize your code into sections
+// 
+// Platform: All
+// Language: Objective-C
+// Completion Scopes: Top Level, Class Implementation, Class Interface Methods
 
+#pragma mark - <#Section#>
