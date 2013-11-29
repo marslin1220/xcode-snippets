@@ -9,14 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// NSFetchedResultsController
-// Boilerplate for creating an NSFetchedResultsController
-//
-// Platform: iOS
-// Language: Objective-C
-// Completion Scope: Function or Method
-
-NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:&lt;#(NSString *)#&gt;];
+	<string>NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:&lt;#(NSString *)#&gt;];
 fetchRequest.predicate = [NSPredicate predicateWithFormat:&lt;#(NSString *), ...#&gt;];
 fetchRequest.sortDescriptors = @[&lt;#(NSSortDescriptor *), ...#&gt;];
 

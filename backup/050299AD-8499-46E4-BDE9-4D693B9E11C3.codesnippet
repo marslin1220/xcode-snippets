@@ -9,14 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// Core Data Fetch
-// Simple Core Data Fetch with Predicate &amp; Sort Descriptor
-//
-// Platform: iOS
-// Language: Objective-C
-// Completion Scope: Function or Method
-
-NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:&lt;#entityName#&gt;];
+	<string>NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:&lt;#entityName#&gt;];
 fetchRequest.predicate = [NSPredicate predicateWithFormat:&lt;#predicateFormat#&gt;];
 
 NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:&lt;#key#&gt; ascending:&lt;#isAscending#&gt; selector:&lt;#selector#&gt;];

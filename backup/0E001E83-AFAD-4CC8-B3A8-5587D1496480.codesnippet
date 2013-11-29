@@ -9,14 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// XCT Assert Equals
-// Assert equals for XCTest
-//
-// Platform: All
-// Language: Objective-C
-// Completion Scope: Function or Method
-
-XCTAssertEqual(&lt;#expected#&gt;, &lt;#actual#&gt;, &lt;#message#&gt;);
+	<string>XCTAssertEqual(&lt;#expected#&gt;, &lt;#actual#&gt;, &lt;#message#&gt;);
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0E001E83-AFAD-4CC8-B3A8-5587D1496480</string>

@@ -9,14 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// __strong self
-// Declare strong referece to weak reference
-// 
-// Platform: All
-// Language: Objective-C
-// Completion Scope: Function or Method
-
-__strong __typeof(&lt;#weakSelf#&gt;)strongSelf = &lt;#weakSelf#&gt;;
+	<string>__strong __typeof(&lt;#weakSelf#&gt;)strongSelf = &lt;#weakSelf#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0AACAC07-44B6-4DB9-B214-F95FCD2D35C0</string>

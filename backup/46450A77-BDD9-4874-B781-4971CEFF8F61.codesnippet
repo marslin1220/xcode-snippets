@@ -9,14 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// XCT Assert False
-// Assert false for XCTest
-//
-// Platform: All
-// Language: Objective-C
-// Completion Scope: Function or Method
-
-XCTAssertFalse(&lt;#expression#&gt;, &lt;#message#&gt;);
+	<string>XCTAssertFalse(&lt;#expression#&gt;, &lt;#message#&gt;);
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>46450A77-BDD9-4874-B781-4971CEFF8F61</string>

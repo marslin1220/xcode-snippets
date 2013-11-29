@@ -5,13 +5,6 @@
 //
 Copy / Paste in Xcode:
 
-// MFMailComposeViewController Initialization & Delegate
-// Methods required to use the iOS Mail Composer
-//
-// Platform: iOS
-// Language: Objective-C
-// Completion Scope: Class Implementation
-
 #import <MessageUI/MessageUI.h>
 
 - (void)presentModalMailComposerViewController:(BOOL)animated {

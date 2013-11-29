@@ -9,14 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// init
-// Designated incantation for your designated initializers
-//
-// Platform: All
-// Language: Objective-C
-// Completion Scope: Function or Method
-
-self = [super init];
+	<string>self = [super init];
 if (!self) {
   return nil;
 }

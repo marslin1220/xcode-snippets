@@ -9,14 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// XCT Assert Not Nil
-// Assert not nil for XCTest
-//
-// Platform: All
-// Language: Objective-C
-// Completion Scope: Function or Method
-
-XCTAssertNotNil(&lt;#expression#&gt;, &lt;#message#&gt;);
+	<string>XCTAssertNotNil(&lt;#expression#&gt;, &lt;#message#&gt;);
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FF7CDDAD-2F19-4FBF-80F7-53C31FB78681</string>

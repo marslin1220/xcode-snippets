@@ -9,13 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// Documents Directory Path
-//
-// Platform: All
-// Language: Objective-C
-// Completion Scope: Function or Method
-
-NSURL *documentsDirectoryURL = [NSURL URLWithString:[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]];
+	<string>NSURL *documentsDirectoryURL = [NSURL URLWithString:[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]];
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>2D78A699-D2E1-4345-96A7-BC2B310DDFEF</string>

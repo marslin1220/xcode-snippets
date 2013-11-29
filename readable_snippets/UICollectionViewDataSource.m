@@ -5,13 +5,6 @@
 //
 Copy / Paste in Xcode:
 
-// UICollectionViewDataSource
-// Placeholders for essential UICollectionViewDataSource delegate methods
-//
-// Platform: iOS
-// Language: Objective-C
-// Completion Scope: Class Implementation
-
 #pragma mark - UICollectionViewDataSource
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView

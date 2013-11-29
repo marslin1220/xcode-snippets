@@ -9,14 +9,7 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// Class Continuation
-// Anonymous category to define private methods in an implementation
-// 
-// Platform: All
-// Language: Objective-C
-// Completion Scope: Top Level
-
-@interface &lt;#Class Name#&gt; ()
+	<string>@interface &lt;#Class Name#&gt; ()
 &lt;#Continuation#&gt;
 @end
 </string>

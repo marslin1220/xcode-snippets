@@ -5,13 +5,6 @@
 //
 Copy / Paste in Xcode:
 
-// UIViewController Lifecycle
-// Placeholders for all of the view controller lifecycle methods
-// 
-// Platform: iOS
-// Language: Objective-C
-// Completion Scope: Class Implementation
-
 #pragma mark - UIViewController
 
 - (void)viewDidLoad {

@@ -5,13 +5,6 @@
 //
 Copy / Paste in Xcode:
 
-// NSFetchedResultsController
-// Boilerplate for creating an NSFetchedResultsController
-//
-// Platform: iOS
-// Language: Objective-C
-// Completion Scope: Function or Method
-
 NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:<#(NSString *)#>];
 fetchRequest.predicate = [NSPredicate predicateWithFormat:<#(NSString *), ...#>];
 fetchRequest.sortDescriptors = @[<#(NSSortDescriptor *), ...#>];

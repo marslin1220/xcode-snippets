@@ -9,14 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MFMailComposeViewController Initialization &amp; Delegate
-// Methods required to use the iOS Mail Composer
-//
-// Platform: iOS
-// Language: Objective-C
-// Completion Scope: Class Implementation
-
-#import &lt;MessageUI/MessageUI.h&gt;
+	<string>#import &lt;MessageUI/MessageUI.h&gt;
 
 - (void)presentModalMailComposerViewController:(BOOL)animated {
     if ([MFMailComposeViewController canSendMail]) {

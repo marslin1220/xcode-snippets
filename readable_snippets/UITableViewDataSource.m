@@ -5,13 +5,6 @@
 //
 Copy / Paste in Xcode:
 
-// UITableViewDataSource
-// Placeholders for required UITableViewDataSource delegate methods
-// 
-// Platform: iOS
-// Language: Objective-C
-// Completion Scope: Class Implementation
-
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {

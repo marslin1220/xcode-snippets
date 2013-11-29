@@ -9,14 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// NSFetchedResultsControllerDelegate
-// Placeholders for the fetched results controller delegate methods
-// 
-// Platform: iOS
-// Language: Objective-C
-// Completion Scope: Class Implementation
-
-#pragma mark - NSFetchedResultsControllerDelegate
+	<string>#pragma mark - NSFetchedResultsControllerDelegate
 
 - (void)controllerWillChangeContent:(NSFetchedResultsController *)controller {
     [self.tableView beginUpdates];

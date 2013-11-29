@@ -9,13 +9,7 @@
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// UIControlEventTouchUpInside
-// 
-// Platform: iOS
-// Language: Objective-C
-// Completion Scope: Code Expression
-
-UIControlEventTouchUpInside
+	<string>UIControlEventTouchUpInside
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5DB29F3D-5F81-4291-B324-5D1F3121E617</string>

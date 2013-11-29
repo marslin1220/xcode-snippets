@@ -9,13 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// Library Directory Path
-// 
-// Platform: All
-// Language: Objective-C
-// Completion Scope: Function or Method
-
-[NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) firstObject];
+	<string>[NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) firstObject];
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>794D1C83-8C94-4990-98B1-B10940C7DF4D</string>

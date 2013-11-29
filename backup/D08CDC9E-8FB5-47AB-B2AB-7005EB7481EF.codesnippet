@@ -9,14 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// __weak self
-// Declare weak reference to self
-// 
-// Platform: All
-// Language: Objective-C
-// Completion Scope: Function or Method
-
-__weak typeof(self)weakSelf = self;
+	<string>__weak typeof(self)weakSelf = self;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D08CDC9E-8FB5-47AB-B2AB-7005EB7481EF</string>

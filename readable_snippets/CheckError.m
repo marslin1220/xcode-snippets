@@ -5,14 +5,6 @@
 //
 Copy / Paste in Xcode:
 
-// CheckError
-// Function that extracts human-readable information from OSStatus codes. 
-// Credit: "Learning Core Audio: A Hands-on Guide to Audio Programming for Mac and iOS", by Chris Adamson, Kevin Avila
-//
-// Platform: All
-// Language: C
-// Completion Scope: Code Expression, Function or Method
-
 static void CheckError(OSStatus error, const char *operation) {
     if (error == noErr) {
       return;

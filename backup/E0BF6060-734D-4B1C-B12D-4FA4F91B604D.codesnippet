@@ -9,14 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// NSCoding Protocol Methods
-// Placeholders for NSCoding protocol methods
-// 
-// Platform: All
-// Language: Objective-C
-// Completion Scope: Class Implementation
-
-#pragma mark - NSCoding
+	<string>#pragma mark - NSCoding
 
 - (instancetype)initWithCoder:(NSCoder *)decoder {
     self = [super init];

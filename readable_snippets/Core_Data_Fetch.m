@@ -5,13 +5,6 @@
 //
 Copy / Paste in Xcode:
 
-// Core Data Fetch
-// Simple Core Data Fetch with Predicate & Sort Descriptor
-//
-// Platform: iOS
-// Language: Objective-C
-// Completion Scope: Function or Method
-
 NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:<#entityName#>];
 fetchRequest.predicate = [NSPredicate predicateWithFormat:<#predicateFormat#>];
 
