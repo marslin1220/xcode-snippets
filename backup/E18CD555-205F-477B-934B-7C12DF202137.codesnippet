@@ -3,28 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>background</string>
+	<string>setupui</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>dispatch_async(dispatch_get_global_queue(&lt;#dispatch_queue_priority_t priority#&gt;, &lt;#unsigned long flags#&gt;), ^(void) {
-    &lt;#code#&gt;
+	<string>#pragma mark - UI
+
+- (void)setupUI {
     
-    dispatch_async(dispatch_get_main_queue(), ^(void) {
-        &lt;#code#&gt;
-    });
-});
-</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>40C474B0-09AE-4D1F-9387-41ED848F3628</string>
+	<string>E18CD555-205F-477B-934B-7C12DF202137</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Dispatch to do work in the background, and then to the main queue with the results</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>dispatch_async Pattern for Background Processing</string>
+	<string>Setup UI</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

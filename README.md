@@ -54,7 +54,7 @@ However, if you want to clear the existing snippets, and use the fresh ones, you
 * ImageView - `imageview`
 * Documents Directory Path - `doc`
 * NSFetchedResultsControllerDelegate - `fetch`
-* dispatch\_async Pattern for Background Processing - `dispatch_async background`
+* dispatch\_async Pattern for Background Processing - `background`
 * XCT Assert False - `xctfalse`
 * NSFetchedResultsController - `fetch`
 * UIViewController Lifecycle - `lifecycle`
@@ -63,14 +63,17 @@ However, if you want to clear the existing snippets, and use the fresh ones, you
 * Library Directory Path - `library`
 * XCT Assert True - `xcttrue`
 * Singleton - `singleton`
+* application:didFinishLaunchingWithOptions: - `appdidlaunch`
 * init - `init`
 * Log Stack Trace - `stacktrace`
 * Class Continuation - `class`
 * XCT Assert Nil - `xctnil`
+* Add UI Component - `setupcomponent`
 * \_\_weak self - `weakself`
 * UITableViewDelegate - `tabledelegate`
 * MFMailComposeViewController Initialization & Delegate - `mail`
 * NSCoding Protocol Methods - `nscoding`
+* Setup UI - `setupui`
 * NSLocalizedString - `local`
 * \#pragma Mark - `pragma`
 * XCT Assert Not Nil - `xctnotnil`

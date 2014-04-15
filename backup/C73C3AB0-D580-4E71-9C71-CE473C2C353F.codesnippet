@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>setupcomponent</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)setup&lt;#Component#&gt; {
+    &lt;#Class Name#&gt; *&lt;#Variable Name#&gt; = [[&lt;#Class Name#&gt; alloc] init];
+    &lt;#Variable Name#&gt;.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.view addSubview:&lt;#Variable Name#&gt;];
+    
+    // Constraints
+    NSLayoutConstraint *top = [NSLayoutConstraint constraintWithItem:&lt;#(id)#&gt;
+                                                           attribute:NSLayoutAttributeTop
+                                                           relatedBy:NSLayoutRelationEqual
+                                                              toItem:self.view
+                                                           attribute:NSLayoutAttributeTop
+                                                          multiplier:1.0f
+                                                            constant:0.0f];
+    NSLayoutConstraint *right = [NSLayoutConstraint constraintWithItem:&lt;#(id)#&gt;
+                                                             attribute:NSLayoutAttributeRight
+                                                             relatedBy:NSLayoutRelationEqual
+                                                                toItem:self.view
+                                                             attribute:NSLayoutAttributeRight
+                                                            multiplier:1.0f
+                                                              constant:0.0f];
+    NSLayoutConstraint *bottom = [NSLayoutConstraint constraintWithItem:&lt;#(id)#&gt;
+                                                              attribute:NSLayoutAttributeBottom
+                                                              relatedBy:NSLayoutRelationEqual
+                                                                 toItem:self.view
+                                                              attribute:NSLayoutAttributeBottom
+                                                             multiplier:1.0f
+                                                               constant:0.0f];
+    NSLayoutConstraint *left = [NSLayoutConstraint constraintWithItem:&lt;#(id)#&gt;
+                                                            attribute:NSLayoutAttributeLeft
+                                                            relatedBy:NSLayoutRelationEqual
+                                                               toItem:self.view
+                                                            attribute:NSLayoutAttributeLeft
+                                                           multiplier:1.0f
+                                                             constant:0.0f];
+    [self.view addConstraints:@[top, right, bottom, left]];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C73C3AB0-D580-4E71-9C71-CE473C2C353F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Add UI Component</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
