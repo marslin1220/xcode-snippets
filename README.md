@@ -45,35 +45,36 @@ However, if you want to clear the existing snippets, and use the fresh ones, you
 
 ## Cheat Sheet
 		
-* Core Data Fetch - `fetch`
-* \_\_strong self - `strongself`
-* Set Frame - `setframe`
-* XCT Assert Equals - `xctequals`
-* CheckError - `checkerror`
-* UICollectionViewDataSource - `collectionview`
-* ImageView - `imageview`
-* Documents Directory Path - `doc`
-* NSFetchedResultsControllerDelegate - `fetch`
-* dispatch\_async Pattern for Background Processing - `background`
-* XCT Assert False - `xctfalse`
-* NSFetchedResultsController - `fetch`
-* UIViewController Lifecycle - `lifecycle`
-* UIControlEventTouchUpInside - `touchup`
-* UITableViewDataSource - `tableview`
-* Library Directory Path - `library`
-* XCT Assert True - `xcttrue`
-* Singleton - `singleton`
-* application:didFinishLaunchingWithOptions: - `appdidlaunch`
-* init - `init`
-* Log Stack Trace - `stacktrace`
-* Class Continuation - `class`
-* XCT Assert Nil - `xctnil`
-* Add UI Component - `setupcomponent`
 * \_\_weak self - `weakself`
-* UITableViewDelegate - `tabledelegate`
-* MFMailComposeViewController Initialization & Delegate - `mail`
+* UIViewController Lifecycle - `lifecycle`
+* XCT Assert Nil - `xctnil`
+* XCT Assert Equals - `xctequals`
+* \_\_strong self - `strongself`
+* \#pragma Mark - `pragma`
+* Library Directory Path - `library`
+* XCT Assert False - `xctfalse`
+* Log Stack Trace - `stacktrace`
 * NSCoding Protocol Methods - `nscoding`
 * Setup UI - `setupui`
-* NSLocalizedString - `local`
-* \#pragma Mark - `pragma`
+* UIControlEventTouchUpInside - `touchup`
+* UITableViewDataSource - `tableview`
+* Add UI Component - `setupcomponent`
+* Singleton - `singleton`
+* ImageView - `imageview`
+* CheckError - `checkerror`
+* define NS\_ENUM types - `enumu`
+* NSFetchedResultsController - `fetch`
+* application:didFinishLaunchingWithOptions: - `appdidlaunch`
+* UICollectionViewDataSource - `collectionview`
+* Core Data Fetch - `fetch`
+* Class Continuation - `class`
+* NSFetchedResultsControllerDelegate - `fetch`
+* UITableViewDelegate - `tabledelegate`
+* XCT Assert True - `xcttrue`
+* Documents Directory Path - `doc`
 * XCT Assert Not Nil - `xctnotnil`
+* NSLocalizedString - `local`
+* dispatch\_async Pattern for Background Processing - `async`
+* Set Frame - `setframe`
+* init - `init`
+* MFMailComposeViewController Initialization & Delegate - `mail`
