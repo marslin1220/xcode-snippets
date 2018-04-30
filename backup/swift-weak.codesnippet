@@ -3,23 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>enumu</string>
+	<string>swift-weak</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typedef NS_ENUM(NSUInteger, &lt;#enum-name#&gt;) {
-&lt;#enum-type#&gt;,
-};</string>
+	<string>[weak self] in
+            guard let strongSelf = self else { return }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>58FD3EB4-0D5C-4350-A2C3-6E602D7159E2</string>
+	<string>B5FFB5B9-1B62-49B5-B1E1-0749BBE07D42</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Create a NS_ENUM with NSUInteger type</string>
+	<string>weakify self in closure</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>define NS_ENUM types</string>
+	<string>Swift weakify self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

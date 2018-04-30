@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>enumu</string>
+	<string>swift-forin</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typedef NS_ENUM(NSUInteger, &lt;#enum-name#&gt;) {
-&lt;#enum-type#&gt;,
-};</string>
+	<string>for case let &lt;#object#&gt; in &lt;#collection#&gt; as [&lt;#Type#&gt;] {
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>58FD3EB4-0D5C-4350-A2C3-6E602D7159E2</string>
+	<string>48C9EB7D-A166-4781-8DC8-6961B57BDC02</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Create a NS_ENUM with NSUInteger type</string>
+	<string>for-in loop that casts objects inline</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>define NS_ENUM types</string>
+	<string>Swift for-in loop with casting</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

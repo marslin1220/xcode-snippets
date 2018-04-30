@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>enumu</string>
+	<string>swift-closureoptionaltypealias</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typedef NS_ENUM(NSUInteger, &lt;#enum-name#&gt;) {
-&lt;#enum-type#&gt;,
-};</string>
+	<string>typealias &lt;#ClosureName#&gt; = ((_ &lt;#arguments#&gt;: &lt;#type#&gt;) -&gt; &lt;#return value#&gt;)?</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>58FD3EB4-0D5C-4350-A2C3-6E602D7159E2</string>
+	<string>1528A53D-69CA-4A12-908A-1F85A47A8644</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Create a NS_ENUM with NSUInteger type</string>
+	<string>Optional closure typealiast with arguments and return value snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>define NS_ENUM types</string>
+	<string>Swift optional closure typealias</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

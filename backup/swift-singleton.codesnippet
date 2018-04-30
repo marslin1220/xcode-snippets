@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>enumu</string>
+	<string>swift-singleton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typedef NS_ENUM(NSUInteger, &lt;#enum-name#&gt;) {
-&lt;#enum-type#&gt;,
-};</string>
+	<string>static let shared : &lt;#SingletonClass#&gt; = &lt;#SingletonClass#&gt;()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>58FD3EB4-0D5C-4350-A2C3-6E602D7159E2</string>
+	<string>D0964789-8FAA-4A94-8E5B-D5178137F102</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Create a NS_ENUM with NSUInteger type</string>
+	<string>Singleton pattern for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>define NS_ENUM types</string>
+	<string>Swift Singleton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

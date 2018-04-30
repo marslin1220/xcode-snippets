@@ -3,23 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>enumu</string>
+	<string>swift-elegantmark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typedef NS_ENUM(NSUInteger, &lt;#enum-name#&gt;) {
-&lt;#enum-type#&gt;,
-};</string>
+	<string>
+////////////////////////////////////////////////////////////////
+//MARK:-
+//MARK:&lt;#Section#&gt;
+//MARK:-
+////////////////////////////////////////////////////////////////
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>58FD3EB4-0D5C-4350-A2C3-6E602D7159E2</string>
+	<string>76C4B4B4-1F7D-41D8-9CE2-0E4E36C668D0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Create a NS_ENUM with NSUInteger type</string>
+	<string>Decorates mark statements and makes it neat when looking through items in File Jump Bar</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>define NS_ENUM types</string>
+	<string>Elegant Mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

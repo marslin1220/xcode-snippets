@@ -44,37 +44,66 @@ However, if you want to clear the existing snippets, and use the fresh ones, you
 `$ rake clean_import`
 
 ## Cheat Sheet
-
+		
 * \_\_weak self - `weakself`
+* Swift document directory - `swift-documentdirectory`
 * UIViewController Lifecycle - `lifecycle`
 * XCT Assert Nil - `xctnil`
 * XCT Assert Equals - `xctequals`
 * \_\_strong self - `strongself`
+* Swift dispatch\_after - `swift-dispatchafter`
+* My Code Snippet - ``
+* Swift dispatch\_async - `swift-dispatchasync`
 * \#pragma Mark - `pragma`
 * Library Directory Path - `library`
 * XCT Assert False - `xctfalse`
+* Swift NSLocalizedString - `swift-nslocalizedstring`
 * Log Stack Trace - `stacktrace`
 * NSCoding Protocol Methods - `nscoding`
+* Swift dispatch\_async on main queue - `swift-dispatchmain`
+* Swift closure typealias - `swift-closuretypealias`
+* Swift weakify self - `swift-weak`
 * Setup UI - `setupui`
 * UIControlEventTouchUpInside - `touchup`
+* Swift UITableViewDelegate - `swift-uitableviewdelegate`
 * UITableViewDataSource - `tableview`
 * Add UI Component - `setupcomponent`
 * Singleton - `singleton`
 * ImageView - `imageview`
+* Swift for-in loop with casting - `swift-forin`
 * CheckError - `checkerror`
 * define NS\_ENUM types - `enumu`
+* IBOutlet - `swift-ibo`
 * NSFetchedResultsController - `fetch`
+* Swift String Array locale-aware sorting - `swift-sortarrayofstrings`
+* Auto-Create property stub - `swift-prop`
+* Swift optional closure typealias - `swift-closureoptionaltypealias`
+* Swift URLSession With Delegate - `swift-urlsession-delegate`
 * application:didFinishLaunchingWithOptions: - `appdidlaunch`
 * UICollectionViewDataSource - `collectionview`
 * Core Data Fetch - `fetch`
+* Elegant Mark - `swift-elegantmark`
+* Swift MFMessageComposeViewController - `swift-message`
 * Class Continuation - `class`
 * NSFetchedResultsControllerDelegate - `fetch`
+* Swift UIViewController lifecycle - `swift-uiviewcontrollerlifecycle`
 * UITableViewDelegate - `tabledelegate`
+* Swift UICollectionViewDelegate - `swift-uicollectionviewdelegate`
+* Swift UIRemoteNotification - `swift-uiremotenotification`
+* Swift Mark: - `swift-mark`
+* Swift add DidBecomeActive notification observer - `swift-didbecomeactive`
+* Swift URLSession DataTask - `swift-urlsession-datatask`
 * XCT Assert True - `xcttrue`
 * Documents Directory Path - `doc`
+* Swift MFMailComposeViewController - `swift-mail`
+* Swift - UIApplication Delegate methods - `swift-uiapplicationdelegate`
+* IBAction - `swift-iba`
+* Swift UICollectionViewDataSource - `swift-uicollectionviewdatasource`
 * XCT Assert Not Nil - `xctnotnil`
+* Swift Singleton - `swift-singleton`
 * NSLocalizedString - `local`
 * dispatch\_async Pattern for Background Processing - `async`
+* Swift UITableViewDataSource - `swift-uitableviewdatasource`
 * Set Frame - `setframe`
 * init - `init`
 * MFMailComposeViewController Initialization & Delegate - `mail`
