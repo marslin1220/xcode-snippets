@@ -11,7 +11,7 @@ Below is the auto-generated cheat-sheet from your own exported snippets. It's cr
 Fork the repository, to be able to export your own snippets and cheat-sheet. You can save the repository wherever you want.
 
 ```bash
-$ git clone git@github.com:jpsim/xcode-snippets.git
+$ git clone git@github.com:marslin1220/xcode-snippets.git
 $ cd xcode-snippets
 $ bundle install
 ```
@@ -44,7 +44,7 @@ However, if you want to clear the existing snippets, and use the fresh ones, you
 `$ rake clean_import`
 
 ## Cheat Sheet
-		
+
 * \_\_weak self - `weakself`
 * UIViewController Lifecycle - `lifecycle`
 * XCT Assert Nil - `xctnil`
