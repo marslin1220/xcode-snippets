@@ -52,11 +52,12 @@ However, if you want to clear the existing snippets, and use the fresh ones, you
 * XCT Assert Equals - `xctequals`
 * \_\_strong self - `strongself`
 * Swift dispatch\_after - `swift-dispatchafter`
-* My Code Snippet - ``
+* Alert Controller - `alertcontroller`
 * Swift dispatch\_async - `swift-dispatchasync`
 * \#pragma Mark - `pragma`
 * Library Directory Path - `library`
 * XCT Assert False - `xctfalse`
+* Method with block parameter - `block-method-parameter`
 * Swift NSLocalizedString - `swift-nslocalizedstring`
 * Log Stack Trace - `stacktrace`
 * NSCoding Protocol Methods - `nscoding`
@@ -64,6 +65,7 @@ However, if you want to clear the existing snippets, and use the fresh ones, you
 * Swift closure typealias - `swift-closuretypealias`
 * Swift weakify self - `swift-weak`
 * Setup UI - `setupui`
+* Block as local variable - `block-local-variable`
 * UIControlEventTouchUpInside - `touchup`
 * Swift UITableViewDelegate - `swift-uitableviewdelegate`
 * UITableViewDataSource - `tableview`
@@ -74,6 +76,7 @@ However, if you want to clear the existing snippets, and use the fresh ones, you
 * CheckError - `checkerror`
 * define NS\_ENUM types - `enumu`
 * IBOutlet - `swift-ibo`
+* Block as property - `block-property`
 * NSFetchedResultsController - `fetch`
 * Swift String Array locale-aware sorting - `swift-sortarrayofstrings`
 * Auto-Create property stub - `swift-prop`
@@ -81,6 +84,7 @@ However, if you want to clear the existing snippets, and use the fresh ones, you
 * Swift URLSession With Delegate - `swift-urlsession-delegate`
 * application:didFinishLaunchingWithOptions: - `appdidlaunch`
 * UICollectionViewDataSource - `collectionview`
+* Block as type define - `block-typedef`
 * Core Data Fetch - `fetch`
 * Elegant Mark - `swift-elegantmark`
 * Swift MFMessageComposeViewController - `swift-message`
